@@ -1,0 +1,39 @@
+@mixin media($width) {
+  @if $width==mobile {
+    @media only screen and (min-width: 0px) {
+      @for $i from 1 through 12 {
+        .col-mobile-#{$i} {
+          width: 8.333333% * $i;
+          .offset-mobile-#{$i} {
+            margin-left: 8.333333% * $i;
+            margin-right: 8.333333% * $i;
+          }
+        }
+      }
+    }
+  } @else if $width==tablet {
+    @media only screen and (min-width: 576px) {
+      @for $i from 1 through 12 {
+        .col-tablet-#{$i} {
+          width: 8.333333% * $i;
+        }
+        .offset-tablet-#{$i} {
+          margin-left: 8.333333% * $i;
+          margin-right: 8.333333% * $i;
+        }
+      }
+    }
+  } @else if $width==desktop {
+    @media only screen and (min-width: 1000px) {
+      @for $i from 1 through 12 {
+        .col-desktop-#{$i} {
+          width: 8.333333% * $i;
+        }
+        .offset-desktop-#{$i} {
+          margin-left: 8.333333% * $i;
+          margin-right: 8.333333% * $i;
+        }
+      }
+    }
+  }
+}
