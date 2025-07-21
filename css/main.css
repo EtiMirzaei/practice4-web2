@@ -23,8 +23,12 @@
   gap: 30px;
 }
 .box p {
+  max-width: 60%;
   color: rgb(0, 0, 0);
   font-size: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .box img {
   max-width: 30%;
