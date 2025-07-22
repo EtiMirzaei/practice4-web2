@@ -31,106 +31,59 @@
   white-space: nowrap;
 }
 .box img {
-  max-width: 30%;
+  width: 50%;
   height: auto;
   object-fit: cover;
 }
 .box button {
   all: unset;
-  padding: 10px 20px;
+  width: 10%;
+  padding: 10px;
   box-sizing: border-box;
   background-color: crimson;
   color: white;
   border: none;
   border-radius: 6px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 10px;
 }
 
 @media only screen and (min-width: 0px) {
   .col-mobile-1 {
     width: 8.333333%;
   }
-  .col-mobile-1 .offset-mobile-1 {
-    margin-left: 8.333333%;
-    margin-right: 8.333333%;
-  }
   .col-mobile-2 {
     width: 16.666666%;
-  }
-  .col-mobile-2 .offset-mobile-2 {
-    margin-left: 16.666666%;
-    margin-right: 16.666666%;
   }
   .col-mobile-3 {
     width: 24.999999%;
   }
-  .col-mobile-3 .offset-mobile-3 {
-    margin-left: 24.999999%;
-    margin-right: 24.999999%;
-  }
   .col-mobile-4 {
     width: 33.333332%;
-  }
-  .col-mobile-4 .offset-mobile-4 {
-    margin-left: 33.333332%;
-    margin-right: 33.333332%;
   }
   .col-mobile-5 {
     width: 41.666665%;
   }
-  .col-mobile-5 .offset-mobile-5 {
-    margin-left: 41.666665%;
-    margin-right: 41.666665%;
-  }
   .col-mobile-6 {
     width: 49.999998%;
-  }
-  .col-mobile-6 .offset-mobile-6 {
-    margin-left: 49.999998%;
-    margin-right: 49.999998%;
   }
   .col-mobile-7 {
     width: 58.333331%;
   }
-  .col-mobile-7 .offset-mobile-7 {
-    margin-left: 58.333331%;
-    margin-right: 58.333331%;
-  }
   .col-mobile-8 {
     width: 66.666664%;
-  }
-  .col-mobile-8 .offset-mobile-8 {
-    margin-left: 66.666664%;
-    margin-right: 66.666664%;
   }
   .col-mobile-9 {
     width: 74.999997%;
   }
-  .col-mobile-9 .offset-mobile-9 {
-    margin-left: 74.999997%;
-    margin-right: 74.999997%;
-  }
   .col-mobile-10 {
     width: 83.33333%;
-  }
-  .col-mobile-10 .offset-mobile-10 {
-    margin-left: 83.33333%;
-    margin-right: 83.33333%;
   }
   .col-mobile-11 {
     width: 91.666663%;
   }
-  .col-mobile-11 .offset-mobile-11 {
-    margin-left: 91.666663%;
-    margin-right: 91.666663%;
-  }
   .col-mobile-12 {
     width: 99.999996%;
-  }
-  .col-mobile-12 .offset-mobile-12 {
-    margin-left: 99.999996%;
-    margin-right: 99.999996%;
   }
 }
 @media only screen and (min-width: 576px) {
